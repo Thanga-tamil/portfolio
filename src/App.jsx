@@ -378,6 +378,9 @@ export default function App() {
           </section>
 
           <section className="wrap desk-slot" aria-label="At the desk">
+            <span className="desk-phrase" aria-hidden="true">
+              curating ideas into solutions
+            </span>
             <figure className="inset-photo end">
               <img
                 src={assetUrl('photos/team.jpg')}

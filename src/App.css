@@ -194,12 +194,34 @@
 }
 
 .desk-slot {
+  position: relative;
   display: flex;
   justify-content: flex-end;
-  padding: 8px 0 0;
+  padding: 72px 0;
+  min-height: 280px;
+  overflow: hidden;
+}
+
+.desk-phrase {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: 0;
+  max-width: 78%;
+  transform: translateY(-50%);
+  color: var(--foreground);
+  font-family: var(--font-display);
+  font-size: clamp(3rem, 8vw, 7.5rem);
+  font-weight: 700;
+  letter-spacing: -0.07em;
+  line-height: 0.88;
+  opacity: 0.08;
+  pointer-events: none;
 }
 
 .desk-slot .inset-photo {
+  position: relative;
+  z-index: 1;
   width: min(100%, 400px);
 }
 
@@ -559,6 +581,12 @@ footer {
 
   .desk-slot {
     justify-content: stretch;
+    padding: 64px 0;
+  }
+
+  .desk-phrase {
+    max-width: 100%;
+    font-size: clamp(3rem, 14vw, 6rem);
   }
 
   .desk-slot .inset-photo {

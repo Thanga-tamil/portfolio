@@ -1,3 +1,5 @@
+const assetUrl = (path) => `${import.meta.env.BASE_URL}${path}`
+
 export const profile = {
   name: "Thangatamil A",
   first: "Thangatamil",
@@ -8,7 +10,7 @@ export const profile = {
   phoneHref: "tel:+919025565212",
   linkedin: "https://www.linkedin.com/in/thangatamil-a-794a632a3",
   github: "https://github.com/Thanga-tamil",
-  resume: "/thangatamil_cv.pdf",
+  resume: assetUrl("thangatamil_cv.pdf"),
   education: "B.E. CSE, Hindusthan Institute of Technology · CGPA 7.8",
   focus: "Orchestration · Client comms · Production",
   certified: "Spring Boot · Core Java · MERN",

@@ -13,6 +13,8 @@ import {
 } from './content'
 import './App.css'
 
+const assetUrl = (path) => `${import.meta.env.BASE_URL}${path}`
+
 function useTheme() {
   const [theme, setTheme] = useState(() => {
     const stored = localStorage.getItem('theme')
@@ -171,7 +173,7 @@ export default function App() {
             <div className="portrait-wrap">
               <div className="portrait">
                 <img
-                  src="/photos/portrait.jpg?v=4"
+                  src={assetUrl('photos/portrait.jpg?v=4')}
                   alt={`${profile.name}, Software Development Engineer`}
                 />
               </div>
@@ -221,7 +223,7 @@ export default function App() {
               <div className="facts">
                 <figure className="inset-photo">
                   <img
-                    src="/photos/desk.jpg"
+                    src={assetUrl('photos/desk.jpg')}
                     alt="Thangatamil with teammates at the office"
                   />
                   <figcaption>Building with the team.</figcaption>
@@ -378,7 +380,7 @@ export default function App() {
           <section className="wrap desk-slot" aria-label="At the desk">
             <figure className="inset-photo end">
               <img
-                src="/photos/team.jpg"
+                src={assetUrl('photos/team.jpg')}
                 alt="At the laptop with the team"
               />
               <figcaption>Realtime stack, live desk.</figcaption>

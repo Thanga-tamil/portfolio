@@ -214,7 +214,7 @@
   font-size: clamp(3rem, 8vw, 7.5rem);
   font-weight: 700;
   letter-spacing: -0.07em;
-  line-height: 0.88;
+  line-height: 2.3;
   opacity: 0.08;
   pointer-events: none;
 }
@@ -632,3 +632,4 @@ footer {
     padding: 72px 0;
   }
 }
+

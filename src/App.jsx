@@ -156,7 +156,8 @@ export default function App() {
                 Building scalable microservices and realtime communication
                 platforms. from JWT auth that dropped to 1–2ms, to native
                 ejabberd modules, gRPC internals, and Go rewrites when the JVM
-                heap said stop.
+                heap said stop. Client communication, Handling warroom discussion, 
+                Reveiwing codebase, Reverse engineering.
               </p>
               <div className="ctas">
                 <a className="btn btn-primary" href="#work">
@@ -203,21 +204,20 @@ export default function App() {
                 <p>
                   I&apos;m a Software Development Engineer with 2.5 years
                   orchestrating, designing, and building software in Agile
-                  teams. The work is backend-heavy: scalable microservices and
+                  teams. The work is production heavy: scalable microservices and
                   realtime communication platforms, with performance,
                   reliability, and high availability as the actual constraints.
                 </p>
                 <p>
-                  At Contus Tech I lived inside MirrorFly and Hike Messenger —
-                  ejabberd, RabbitMQ, Redis, Spring WebFlux, Go, gRPC, LiveKit,
+                  At Contus Tech I lived with MirrorFly and Hike Messenger ::
+                  ejabberd, RabbitMQ, Redis, Java Spring WebFlux, Go, gRPC, LiveKit,
                   Janus, SIP, Centrifugo. The interesting problems were the ones
                   where a hop, a heap, or a blocking I/O model was the product
                   bug.
                 </p>
                 <p>
-                  I resigned in 2026 and I&apos;m based in Bengaluru, looking
-                  for Golang work first. Java and Erlang are still tools I will
-                  pick up without drama.
+                  I resigned in 30.Jun.2026 and I&apos;m currently based in Bengaluru, looking
+                  for a new opportunity to curate the Software again.
                 </p>
               </div>
               <div className="facts">
@@ -379,7 +379,7 @@ export default function App() {
 
           <section className="wrap desk-slot" aria-label="At the desk">
             <span className="desk-phrase" aria-hidden="true">
-              curating ideas into solutions
+              CURATING IDEAS INTO SOLUTIONS
             </span>
             <figure className="inset-photo end">
               <img

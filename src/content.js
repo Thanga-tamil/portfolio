@@ -18,7 +18,7 @@ export const profile = {
 
 export const stats = [
   { value: "2.5 yrs", label: "Full-time in production" },
-  { value: "1–2ms", label: "Auth after live rewrite" },
+  { value: "1.0 - 2.0ms", label: "Auth after re-architecture" },
   { value: "Deadlocks", label: "Fixed under concurrent load" },
   { value: "Clients", label: "Mobile, product, chat SDK" },
 ]

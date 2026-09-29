@@ -363,7 +363,7 @@ export default function App() {
             <p className="kicker">Products</p>
             <h2>Core platforms and the forks under them.</h2>
             <p className="lede">
-              Products I have dealt with — the ones users see, and the servers
+              Products I have dealt with :: the ones users see, and the servers
               they actually run on.
             </p>
             <div className="product-grid">

@@ -37,11 +37,11 @@ export const nav = [
 export const roles = [
   {
     company: "Contus Tech",
-    dates: "Sep 2024 — Jun 2026 · Chennai",
+    dates: "Sep 2024 :: Jun 2026 · Chennai",
     title: "Junior Software Development Engineer",
     points: [
       "Orchestrated the auth path in production: replaced Go/Python auth hops with JWT + Redis, cut latency from 200ms–3s to 1–2ms, and cleared session deadlocks while users were already online.",
-      "Owned client-facing realtime contracts for MirrorFly and Hike — presence, mute, roster, reactions, push — and kept mobile, product, and backend on one story when delivery failed.",
+      "Owned client-facing realtime contracts for MirrorFly and Hike; presence, mute, roster, reactions, push; and kept mobile, product, and backend on one story when delivery failed.",
       "Eliminated a Java XMPP hop by shipping a native RabbitMQ module in ejabberd with async worker pools, then watched throughput instead of hoping the extra process held.",
       "Took a Cloud API Gateway single-point-of-failure out of the live path with HA Nginx and Apache routing so clients stopped paying an extra proxy on every request.",
       "When contact sync blew the JVM heap in production, rewrote it in Go with batched parallel sync and Redis so large graphs finished without taking the database with them.",
@@ -49,12 +49,12 @@ export const roles = [
     ],
   },
   {
-    company: "Innov Source — Tech Mahindra client",
-    dates: "Apr 2024 — Sep 2024",
+      company: "Innov Source :: Tech Mahindra client",
+    dates: "Apr 2024 :: Sep 2024",
     title: "FTTX Engineer",
     points: [
       "Built a working model of how binary data rides electromagnetic and fiber paths in cellular and Ethernet networks.",
-      "Walked the team through router fundamentals and port forwarding — client communication as teaching, so traffic routing stopped being folklore in the field.",
+      "Walked the team through router fundamentals and port forwarding; client communication as teaching, so traffic routing stopped being folklore in the field.",
       "Mapped public/private IPs, NAT, and port mapping onto how packets actually reach a process.",
     ],
   },
@@ -63,7 +63,7 @@ export const roles = [
     dates: "Open to roles · Bengaluru · Remote",
     title: "Golang · Java · Erlang",
     points: [
-      "Looking for full-time backend work where orchestration, client communication, and live production issues are the job — not a side channel.",
+      "Looking for full-time backend work where orchestration, client communication, and live production issues are the job; not a side channel.",
       "Strongest on realtime and messaging platforms under load. Go first; Java and Erlang when the path already lives there.",
     ],
   },
@@ -98,7 +98,7 @@ export const projects = [
     title: "Native RabbitMQ in ejabberd",
     org: "Contus Tech",
     summary:
-      "A Java XMPP microservice went away. Publish/subscribe now runs inside ejabberd with asynchronous worker pools — no extra hop, less infra.",
+      "A Java XMPP microservice went away. Publish/subscribe now runs inside ejabberd with asynchronous worker pools :: no extra hop, less infra.",
     metrics: [
       { value: "0", label: "Java XMPP hops" },
       { value: "In-node", label: "Pub/sub path" },
@@ -155,7 +155,7 @@ export const projects = [
       { value: "FCM + APNs", label: "Offline sync" },
       { value: "WebRTC", label: "LiveKit · Janus" },
     ],
-    body: "Reactions had to land for online and offline users without blocking the stanza path — async persistence, push as the wakeup, SQL as the source of truth. Firebase Admin validated ID tokens before account creation. Google Play and App Store IAP unlocked anonymous communication. The same platform sat on ejabberd, RabbitMQ, Redis, WebFlux, Go, gRPC, Janus, SIP, LiveKit, and Centrifugo.",
+    body: "Reactions had to land for online and offline users without blocking the stanza path; async persistence, push as the wakeup, SQL as the source of truth. Firebase Admin validated ID tokens before account creation. Google Play and App Store IAP unlocked anonymous communication. The same platform sat on ejabberd, RabbitMQ, Redis, WebFlux, Go, gRPC, Janus, SIP, LiveKit, and Centrifugo.",
   },
 ]
 
@@ -197,7 +197,7 @@ export const systems = [
   },
   {
     title: "Cache what chat asks twice",
-    body: "Presence, mute, block, roster, and group membership are not analytics queries. They belong next to the session, with SQL as durability — not as the first read.",
+    body: "Presence, mute, block, roster, and group membership are not analytics queries. They belong next to the session, with SQL as durability; not as the first read.",
   },
   {
     title: "Match I/O models",
@@ -217,7 +217,7 @@ export const products = [
   {
     title: "MirrorFly",
     kind: "Core product",
-    body: "Chat and realtime platform work — auth, messaging, reactions, sync, purchases, and the services around them.",
+    body: "Chat and realtime platform work; auth, messaging, reactions, sync, purchases, and the services around them.",
   },
   {
     title: "Hike Messenger",
@@ -238,17 +238,17 @@ export const products = [
 
 export const certs = [
   {
-    title: "Spring Boot — AmigosCode",
-    dates: "Aug 2023 — Mar 2024",
+      title: "Spring Boot :: AmigosCode",
+    dates: "Aug 2023 :: Mar 2024",
     body: "Hands-on course on building RESTful APIs in a microservices shape.",
   },
   {
-    title: "Java: Spring — QSpiders",
+      title: "Java: Spring :: QSpiders",
     dates: "Training",
-    body: "Core Java, OOP, collections, multithreading, exception handling — the floor the Spring work stands on.",
+    body: "Core Java, OOP, collections, multithreading, exception handling :: the floor the Spring work stands on.",
   },
   {
-    title: "MERN Stack — EMC",
+      title: "MERN Stack :: EMC",
     dates: "Certification",
     body: "Modern web apps and REST integration with React, Node.js, and MongoDB.",
   },

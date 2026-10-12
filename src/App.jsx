@@ -379,7 +379,7 @@ export default function App() {
 
           <section className="wrap desk-slot" aria-label="At the desk">
             <span className="desk-phrase" aria-hidden="true">
-              CURATING IDEAS INTO SOLUTIONS
+              CURATING IDEAS INTO SOLUTION
             </span>
             <figure className="inset-photo end">
               <img
